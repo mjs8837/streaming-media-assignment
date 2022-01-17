@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Setting up node for the streaming media assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjs8837/streaming-media-assignment.git"
+  },
+  "author": "Mike Santos",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/mjs8837/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/mjs8837/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.4"
+  }
+}
